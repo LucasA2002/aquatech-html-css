@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
 
 .container {
@@ -64,14 +67,15 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .banner p {
     color: white;
     font-size: 48px;
     width: 280px;
-    margin-left: 650px;
     line-height: 1.2;
+    margin-right: 220px;
 }
 
 .banner span {
@@ -133,3 +137,55 @@ body {
 .version {
     font-size: 14px;
 }
+
+/* Tela de Cadastro */
+
+.login {
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    object-position: bottom;
+}
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: ; */
+}
+
+/* .card-cadastro {
+
+} */
+
+.login h2 {
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+/* .login span {
+    
+}
+
+.login input {
+} */
