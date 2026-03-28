@@ -11,6 +11,8 @@ body {
     font-family: "Exo 2", sans-serif;
 }
 
+/* home */
+
 .container {
     width: 100%;
     margin: auto;
@@ -54,6 +56,7 @@ body {
 
 .agora a {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .banner {
@@ -122,30 +125,29 @@ body {
 }
 
 .footer .container {
-    height: 100px;
+    height: 120px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
 }
 
 .footer h4 {
     font-size: 20px;
+    padding-top: 20px;
 }
 
 .version {
-    font-size: 14px;
+    font-size: 20px;
 }
 
-/* Tela de Cadastro */
 
+/* login e cadastro */
 .login {
     background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
     background-size: cover;
-    height: 600px;
     width: 100%;
-    object-position: bottom;
+    height: 750px;
 }
 
 .login .container {
@@ -157,35 +159,66 @@ body {
 
 .card {
     display: flex;
-    background-color: aliceblue;
-    padding: 20px;
+    background-color: rgb(226, 226, 226);
     flex-direction: column;
     align-items: center;
-    /* border-radius: ; */
+    justify-content: center;
+    border-radius: 15px;
 }
 
-/* .card-cadastro {
+.card-cadastro{
+    width: 40%;
+    height: 80%;
+}
 
-} */
+.card-login {
+    width: 40%;
+    height: 350px;
+    padding: 20px;
+}
 
 .login h2 {
     margin-bottom: 20px;
+    color: palevioletred;
+    font-size: 35px;
+}
+
+.login span {
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    height: 80%;
 }
 
 .campo {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-}
-
-/* .login span {
-    
+    height: 100%;
 }
 
 .login input {
-} */
+    height: 50%;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    text-align: center;
+}
+
+.botao {
+    background-color: rgb(179, 22, 75);
+    color: aliceblue;
+    margin-top: 10px;
+    width: 150px;
+    height: 45%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+}
+
